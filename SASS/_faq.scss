@@ -1,0 +1,52 @@
+.container-faq {
+    width: 60vw;
+    margin: 0 auto;
+    border: 3px solid $p;
+    background-color: $w;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.hfaq{
+    font-size: 4rem;
+    font-family: $hfontp;
+    font-weight: bold;
+}
+.open {
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 5px;
+    margin-top: 5px;
+
+}
+
+.qu {
+    font-size: 30px;
+    position: relative;
+    font-weight: bold;
+    border-bottom: 3px solid $p;
+    cursor: pointer;
+}
+
+.an,
+.qu {
+    padding: 7px;
+    font-family: $pfont;
+    line-height: 1.5;
+
+}
+
+.an {
+    background-color: hsl(275, 84%, 81%);
+    display: none;
+    font-size: 25px;
+    font-weight: lighter;
+
+}
+
+@media(max-width:500px) {
+    .open {
+        display: none;
+    }
+}

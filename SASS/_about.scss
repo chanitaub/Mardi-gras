@@ -1,0 +1,47 @@
+#img-LaToya-Cantrell {
+    width: 220px;
+    height: 300px;
+    display: block;
+    float: right;
+    padding: 20px 20px 20px 20px;
+    margin-top: 10px;
+    /* box-shadow: 2px 2px; */
+
+}
+
+
+
+h1,h2{
+    font-family:$hfontp ;
+}
+
+
+@media(max-width:500px) {
+    #img-LaToya-Cantrell {
+        box-shadow: 0px 0px 0px;
+        width: 180px;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    .about-mardi {
+        h1 {
+            font-size: 50px;          
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+    }
+}
+
+.about-mardi {
+    padding: 10px;
+    background-color: $w;
+    box-shadow: 5px 5px 5px;
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    border: 3px solid $b;
+}

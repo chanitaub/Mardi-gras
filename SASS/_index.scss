@@ -1,0 +1,160 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+
+   background-image: linear-gradient(to top, #ffff04,rgba(214, 209, 209, 0.992));
+}
+
+//carousel//
+
+.carousel-item img {
+    height: 700px;
+    position: relative;
+}
+
+.imgText {
+    width: 100vw;
+    text-align: center;
+    color: $w;
+    font-size: 70px;
+    font-family: $hfont;
+    position: absolute;
+    top: 600px;
+    z-index: 1;
+
+    
+
+}
+
+.img-mobail {
+    display: none;
+}
+
+@media(max-width:600px) {
+    .carousel {
+        display: none;
+
+    }
+
+    .img-mobail {
+        display: block;
+    }
+
+}
+ .container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 80vw;
+    gap: 20px;
+    font-family:$pfont;
+    text-align: justify;
+} 
+.text2{
+    text-align: center; 
+    font-size: 30px;
+    font-family: $hfontp;
+     
+}
+.textimg{
+   display: block;
+    font-size: 5vw;
+    margin: 0 auto ;
+    width: 80vw;
+    /* gap: 20px; */
+    font-family:$hfont;
+     text-align: center; 
+    color: $w;
+      
+}
+.box1, .box2 ,.box3 {
+    text-align: justify;
+font-family: $pfont;
+
+    padding: 10px 10px 10px 10px; 
+    font-size: 17px;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 50px;
+    background-color: $b;
+    bottom: 0px;
+    padding: 20px;
+    color: $p;
+    font-family: $hfont;
+    text-align: center;
+    font-size: 25px;
+h3{
+ font-family: $hfontp;   
+}
+a{
+   /* font-family: $pfont; */ 
+   font-family: $hfontp;  
+  
+}
+.a-footer{
+    color:#f2cc0f;
+}
+    a {
+        color: $y;
+        text-align: center;
+    }
+}
+.imgmail{
+    width: 45px;
+    height: 35px;
+}
+
+
+//cards//
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+
+
+    .cards {
+        display: inline-block;
+        height: 550px;
+        overflow: hidden;
+        margin: 10px;
+        width: 300px;
+        border: 3px solid $w;
+        background-color: $w;
+
+
+        a {
+            text-decoration: none;
+            color: $b;
+
+            img {
+                width: 400px;
+                height: 300px;
+            }
+
+            p {
+                padding: 10px;
+            }
+
+            h2 {
+
+                font-family: $hfont;
+                text-align: center;
+            }
+
+            h3 {
+
+                font-size: 20px;
+                font-family: $hfontp;
+            }
+        }
+    }
+}

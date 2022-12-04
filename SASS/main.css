@@ -1,0 +1,525 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Kaushan+Script&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pattaya&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-funders {
+  margin-left: 3.5rem;
+}
+
+h1 {
+  margin-top: 30px;
+  font-family: "Henny Penny", cursive;
+  color: #0d0d0d;
+  text-align: center;
+  font-size: 65px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-style: 20px;
+}
+
+/*  body {
+    margin: 0 auto;
+    background: linear-gradient(to right, rgb(245, 245, 140), #85ce85, rgb(201, 143, 243));
+
+
+}  */
+#img-hauntedMuseum, #img-walk-ons, #img-Rits-Cariton, #img-children, .img-parking, .imgSheraton {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#img-hauntedMuseum img, #img-walk-ons img, #img-Rits-Cariton img, #img-children img, .img-parking img, .imgSheraton img {
+  width: 350px;
+  height: 350px;
+  margin: 5px;
+}
+
+.web-haunted-museum, .web-walk-ons, .web-rize-carlton, .web-louisanah-Childrens, .web-premium-parking, .web-sheraton_hotel {
+  font-family: "Henny Penny", cursive;
+  color: #9453a6;
+  font-size: 30px;
+  text-align: center;
+}
+.web-haunted-museum a, .web-walk-ons a, .web-rize-carlton a, .web-louisanah-Childrens a, .web-premium-parking a, .web-sheraton_hotel a {
+  color: #9453a6;
+}
+
+/* @import 'med'; */
+.nav-header {
+  margin-bottom: 20px;
+  width: 100vw;
+  height: 10vw;
+  background-color: #f2cc0f;
+}
+.nav-header ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.nav-header ul li {
+  padding: 23px;
+}
+.nav-header ul li a {
+  display: block;
+  font-family: "Henny Penny", cursive;
+  font-size: 3vw;
+  color: #9453a6;
+  text-decoration: none;
+}
+.nav-header ul li a:hover {
+  color: #0d0d0d;
+  transform: scale(1.2, 1.2);
+}
+
+#logo {
+  display: inline;
+  float: left;
+  width: 8vw;
+  height: 8vw;
+  margin-top: 1vw;
+  margin-left: 2vw;
+}
+
+.container1 {
+  display: none;
+}
+
+#mobi {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #logo {
+    float: right;
+    height: 70px;
+    width: 70px;
+    margin: 7px;
+  }
+  .container1 {
+    border: 1px solid #f2cc0f;
+    background-color: #f2cc0f;
+    display: block;
+    font-size: 50px;
+    color: #f2f2f2;
+    margin: 0px;
+  }
+  #mobi {
+    display: block;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: -12px;
+    margin-top: 10px;
+  }
+  ul li {
+    line-height: 25px;
+    width: 160px;
+    border-top: 2px solid #f2f2f2;
+    display: none;
+    background-color: #f2cc0f;
+    z-index: 1;
+  }
+  ul li a {
+    font-family: "Pattaya", sans-serif;
+    font-size: 5vw;
+    text-align: center;
+    color: #f2f2f2;
+    padding-top: 0px;
+  }
+}
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body {
+  background-image: linear-gradient(to top, #ffff04, rgba(214, 209, 209, 0.992));
+}
+
+.carousel-item img {
+  height: 700px;
+  position: relative;
+}
+
+.imgText {
+  width: 100vw;
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 70px;
+  font-family: "Henny Penny", cursive;
+  position: absolute;
+  top: 600px;
+  z-index: 1;
+}
+
+.img-mobail {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .carousel {
+    display: none;
+  }
+  .img-mobail {
+    display: block;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 80vw;
+  gap: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+}
+
+.text2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Pattaya", sans-serif;
+}
+
+.textimg {
+  display: block;
+  font-size: 5vw;
+  margin: 0 auto;
+  width: 80vw;
+  /* gap: 20px; */
+  font-family: "Henny Penny", cursive;
+  text-align: center;
+  color: #f2f2f2;
+}
+
+.box1, .box2, .box3 {
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 10px 10px 10px;
+  font-size: 17px;
+  flex-basis: 100px;
+  flex-grow: 1;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  background-color: #0d0d0d;
+  bottom: 0px;
+  padding: 20px;
+  color: #9453a6;
+  font-family: "Henny Penny", cursive;
+  text-align: center;
+  font-size: 25px;
+}
+.footer h3 {
+  font-family: "Pattaya", sans-serif;
+}
+.footer a {
+  /* font-family: $pfont; */
+  font-family: "Pattaya", sans-serif;
+}
+.footer .a-footer {
+  color: #f2cc0f;
+}
+.footer a {
+  color: #f2cc0f;
+  text-align: center;
+}
+
+.imgmail {
+  width: 45px;
+  height: 35px;
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.container-cards .cards {
+  display: inline-block;
+  height: 550px;
+  overflow: hidden;
+  margin: 10px;
+  width: 300px;
+  border: 3px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+.container-cards .cards a {
+  text-decoration: none;
+  color: #0d0d0d;
+}
+.container-cards .cards a img {
+  width: 400px;
+  height: 300px;
+}
+.container-cards .cards a p {
+  padding: 10px;
+}
+.container-cards .cards a h2 {
+  font-family: "Henny Penny", cursive;
+  text-align: center;
+}
+.container-cards .cards a h3 {
+  font-size: 20px;
+  font-family: "Pattaya", sans-serif;
+}
+
+#img-LaToya-Cantrell {
+  width: 220px;
+  height: 300px;
+  display: block;
+  float: right;
+  padding: 20px 20px 20px 20px;
+  margin-top: 10px;
+  /* box-shadow: 2px 2px; */
+}
+
+h1, h2 {
+  font-family: "Pattaya", sans-serif;
+}
+
+@media (max-width: 500px) {
+  #img-LaToya-Cantrell {
+    box-shadow: 0px 0px 0px;
+    width: 180px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  .about-mardi h1 {
+    font-size: 50px;
+  }
+  .about-mardi h2 {
+    font-size: 30px;
+  }
+}
+.about-mardi {
+  padding: 10px;
+  background-color: #f2f2f2;
+  box-shadow: 5px 5px 5px;
+  width: 60vw;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 120px;
+  border: 3px solid #0d0d0d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.containermedia {
+  position: relative;
+  width: 100vw;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  width: 300rem;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  /*   float: left; */
+  /*  width: 16.66%; */
+  width: 13rem;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/*video*/
+.videocontainer {
+  display: flex;
+  /*  flex-wrap: wrap; */
+  justify-content: center;
+}
+
+.container-faq {
+  width: 60vw;
+  margin: 0 auto;
+  border: 3px solid #9453a6;
+  background-color: #f2f2f2;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.hfaq {
+  font-size: 4rem;
+  font-family: "Pattaya", sans-serif;
+  font-weight: bold;
+}
+
+.open {
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 5px;
+  margin-top: 5px;
+}
+
+.qu {
+  font-size: 30px;
+  position: relative;
+  font-weight: bold;
+  border-bottom: 3px solid #9453a6;
+  cursor: pointer;
+}
+
+.an,
+.qu {
+  padding: 7px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+.an {
+  background-color: hsl(275deg, 84%, 81%);
+  display: none;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+@media (max-width: 500px) {
+  .open {
+    display: none;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-basis: 100px;
+  margin: 0 auto;
+  width: 100vw;
+  gap: 30px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  top: 10px;
+}
+
+.container-form {
+  width: 27rem;
+  display: block;
+  background-color: #0d0d0d;
+  border: 4px solid #0d0d0d;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+}
+
+label {
+  font-size: 2.5rem;
+  font-family: "Pattaya", sans-serif;
+  text-align: center;
+  color: #9453a6;
+}
+
+input {
+  border-radius: 15rem;
+  height: 3rem;
+  font-size: 1.7rem;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Pattaya", sans-serif;
+  color: #9453a6;
+}
+
+.button {
+  margin: 10px 40px;
+  color: #f2f2f2;
+  height: 75px;
+  width: 15rem;
+  font-family: "Pattaya", sans-serif;
+  background-color: #9453a6;
+  border-radius: 15rem;
+  border-style: dotted;
+}/*# sourceMappingURL=main.css.map */

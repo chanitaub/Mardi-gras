@@ -1,0 +1,80 @@
+@import 'setup';
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Kaushan+Script&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pattaya&display=swap'); 
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-funders{
+   margin-left: 3.5rem;
+}
+h1 {
+    
+    margin-top: 30px;
+    font-family: $hfont;
+    color: $b;
+    text-align: center;
+    font-size: 65px;
+
+}
+
+p {
+    font-family: $pfont;
+    font-style: 20px;
+
+} 
+
+/*  body {
+    margin: 0 auto;
+    background: linear-gradient(to right, rgb(245, 245, 140), #85ce85, rgb(201, 143, 243));
+
+
+}  */
+
+
+%box-img-Advertisers {
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    img {
+        width: 350px;
+        height: 350px;
+        margin: 5px;
+   
+    }
+}
+
+%text-web-Advertisers {
+    font-family: $hfont;
+    color: $p;
+    font-size: 30px;
+    text-align: center;
+
+    a {
+        color: $p;
+    }
+}
+/* @import 'med'; */
+@import 'header';
+@import 'index';
+@import 'about';
+@import 'media';
+@import 'faq';
+@import 'contact';
+@import 'sheratonHotel';
+@import 'PremiumParking';
+@import 'louisanahChildrens';
+@import 'TheRitzCarlton';
+@import 'walkOns';
+@import 'HauntedMuseum';
+
+
+
